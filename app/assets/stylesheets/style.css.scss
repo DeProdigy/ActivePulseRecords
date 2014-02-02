@@ -17,6 +17,7 @@ h1 {
   padding:              10px;
   font-family:          'Raleway', sans-serif;
   font-weight:          200;
+  font-size:            1em;
 }
 
 h1:hover {
@@ -24,20 +25,16 @@ h1:hover {
   margin-left:           1%;
 }
 
-#first {
+section {
   height:                 600px;
   width:                  100%;
 }
 
 #second {
-  height:                 600px;
-  width:                  100%;
   background-color:       rgba(44, 52, 59, 0.9);
 }
 
 #third {
-  height:                 600px;
-  width:                  100%;
   background-color:       rgba(80, 97, 111, 0.9);
 }
 
@@ -46,15 +43,5 @@ a {
   color:                  inherit;
 }
 
-nav {
-  position:               fixed;
-  height:                 50px;
-  width:                  100%;
-  background-color:       rgba(149, 165, 166, 0.5);
-}
-
-h1 {
-  font-size:              1em;
-}
 
 
