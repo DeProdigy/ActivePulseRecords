@@ -32,15 +32,27 @@ a {
 }
 
 li {
-  height:               150px;
+  height:               100%;
   width:                100%;
   background:           $releases-background;
-  margin:               1px;
-  float:                left;
-  clear: both;
+  margin-bottom:        10px;
+  padding:              10px;
+
 }
 
 img {
-  height: 150px;
-  width: 150px;
+  height:               150px;
+  width:                150px;
 }
+
+h3 {
+  float:                right;
+  font-size:            1.5em;
+}
+
+p {
+  font-size:            1em;
+  margin-top:           5px;
+}
+
+
