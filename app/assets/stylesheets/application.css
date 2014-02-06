@@ -11,5 +11,7 @@
  *= require_self
  *= require reset
  *= require style
+ *= require sections
+ *= require elements
  *
  */
