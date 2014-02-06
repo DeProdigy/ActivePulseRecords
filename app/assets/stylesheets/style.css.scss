@@ -1,11 +1,22 @@
+$menu-color:            #2C343B;
+
 .menu {
-  position: fixed;
-  background:           #2C343B;
+  position:             fixed;
+  background-color:     $menu-color;
   width:                300px;
 }
 
+.social-media {
+  position:             absolute;
+  height:               100px;
+  width:                500px;
+  background-color:     $menu-color;
+  bottom:               20px;
+  right:                20px;
+}
+
 #unicode {
-  font-size: 4em;
+  font-size:            4em;
 }
 
 
