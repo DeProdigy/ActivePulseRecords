@@ -1,4 +1,5 @@
 $menu-color:            #2C343B;
+$artists-background:    rgba(44, 52, 59, 0.9);
 
 .menu {
   position:             fixed;
@@ -10,7 +11,7 @@ $menu-color:            #2C343B;
   position:             absolute;
   height:               100px;
   width:                500px;
-  background-color:     $menu-color;
+  background-color:     $artists-background;
   bottom:               20px;
   right:                20px;
 }
