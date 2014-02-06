@@ -21,7 +21,7 @@ h1 {
 
 section {
   margin:               0 auto;
-  height:               600px;
+  // height:               600px;
   width:                95%;
 }
 
@@ -30,22 +30,36 @@ a {
   color:                inherit;
 }
 
+li {
+  position:             relative;
+  margin:               0 auto;
+  height:               150px;
+  width:                500px;
+  background:           white;
+  border:               2px solid black;
+  float:                left;
+  display:              inline-block;
+}
+
 %section_styling {
   padding:              10px 30px;
 }
 
 #intro {
   padding:              10px 30px;
+  height:               500px;
 }
 
 #artists {
                         @extend %section_styling;
   background-color:     rgba(44, 52, 59, 0.9);
+  height:               700px;
 }
 
 #releases {
                         @extend %section_styling;
   background-color:     rgba(80, 97, 111, 0.9);
+  height:               500px;
 }
 
 .menu {
