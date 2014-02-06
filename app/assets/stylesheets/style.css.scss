@@ -20,26 +20,33 @@ h1 {
 }
 
 section {
-  height:                 600px;
-  width:                  100%;
+  margin:               0 auto;
+  height:               600px;
+  width:                95%;
 }
 
 a {
-  text-decoration:        none;
-  color:                  inherit;
+  text-decoration:      none;
+  color:                inherit;
 }
 
-#second {
-  background-color:       rgba(44, 52, 59, 0.9);
+%section_styling {
+  padding:              10px 50px;
 }
 
-#third {
-  background-color:       rgba(80, 97, 111, 0.9);
+#artists {
+                        @extend %section_styling;
+  background-color:     rgba(44, 52, 59, 0.9);
+}
+
+#releases {
+                        @extend %section_styling;
+  background-color:     rgba(80, 97, 111, 0.9);
 }
 
 .menu {
-  background:             #2C343B;
-  width:                  300px;
+  background:           #2C343B;
+  width:                300px;
 }
 
 
