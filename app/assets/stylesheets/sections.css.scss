@@ -21,3 +21,10 @@ $releases-background:    rgba(80, 97, 111, 0.9);
   background-color:     $releases-background;
   height:               500px;
 }
+
+#footer {
+                        @extend %section_styling;
+  text-align:           center;
+  background-color:     $artists-background;
+  height:               80px;
+}
