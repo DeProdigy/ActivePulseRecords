@@ -21,7 +21,6 @@ h1 {
 
 section {
   margin:               0 auto;
-  // height:               600px;
   width:                95%;
 }
 
@@ -30,13 +29,15 @@ a {
   color:                inherit;
 }
 
-li {
-  position:             relative;
+ul {
   margin:               0 auto;
+}
+
+li {
   height:               150px;
   width:                500px;
   background:           white;
-  border:               2px solid black;
+  border:               1px solid black;
   float:                left;
   display:              inline-block;
 }
@@ -53,7 +54,7 @@ li {
 #artists {
                         @extend %section_styling;
   background-color:     rgba(44, 52, 59, 0.9);
-  height:               700px;
+  overflow:             hidden;
 }
 
 #releases {
