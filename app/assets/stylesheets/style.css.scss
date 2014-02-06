@@ -7,27 +7,26 @@ body {
   color:                  white;
 }
 
-.menu {
-  background:             #2C343B;
-  width:                  300px;
-}
-
 h1 {
   border-bottom:        1px solid white;
   padding:              10px;
   font-family:          'Raleway', sans-serif;
   font-weight:          200;
   font-size:            1em;
-}
-
-h1:hover {
-  background:            #51616E;
-  margin-left:           1%;
+  &:hover {
+    background:         #51616E;
+    margin-left:        1%;
+  }
 }
 
 section {
   height:                 600px;
   width:                  100%;
+}
+
+a {
+  text-decoration:        none;
+  color:                  inherit;
 }
 
 #second {
@@ -38,10 +37,12 @@ section {
   background-color:       rgba(80, 97, 111, 0.9);
 }
 
-a {
-  text-decoration:        none;
-  color:                  inherit;
+.menu {
+  background:             #2C343B;
+  width:                  300px;
 }
+
+
 
 
 
