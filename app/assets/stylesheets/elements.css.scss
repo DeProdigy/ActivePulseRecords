@@ -1,5 +1,6 @@
 $artists-background:     rgba(44, 52, 59, 0.9);
 $releases-background:    rgba(80, 97, 111, 0.9);
+$raleway-font:           'Raleway', sans-serif;
 
 body {
   background-image:       url('photo4.jpg');
@@ -13,7 +14,7 @@ body {
 h1 {
   border-bottom:        1px solid white;
   padding:              10px;
-  font-family:          'Raleway', sans-serif;
+  font-family:          $raleway-font;
   font-weight:          200;
   font-size:            1em;
   &:hover {
@@ -53,6 +54,9 @@ h3 {
 p {
   font-size:            1em;
   margin-top:           5px;
+  font-family:          $raleway-font;
+  line-height:          1.62;
+  word-spacing:         2px;
 }
 
 
